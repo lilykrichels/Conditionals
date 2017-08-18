@@ -10,6 +10,16 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter your age."  );
+            int age = int.Parse(Console.ReadLine());
+             if (age < 21)
+            {
+                Console.WriteLine("You are too young.");
+            }
+            else
+            {
+                Console.WriteLine("Welcome to the show!");
+            }
         }
     }
 }
